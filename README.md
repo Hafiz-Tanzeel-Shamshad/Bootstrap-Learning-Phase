@@ -1,8 +1,8 @@
 # Bootstrap-Learning-Phase
-The Bootstrap Learning Phase repository dedicated to learning and practicing Bootstrap, a popular front-end framework. This focuses on building responsive and modern web pages using Bootstrap’s grid system, components, utilities, and responsive design features. It includes exercises and mini-projects that help learners understand core concepts.
+The Bootstrap Learning Phase repository dedicated to learning and practicing **Bootstrap, a popular front-end framework**. This focuses on building responsive and modern web pages using Bootstrap’s grid system, components, utilities, and responsive design features. It includes exercises and mini-projects that help learners understand core concepts.
 # Bootstrap Learning Phase
 
-This project is dedicated to learning and practicing **Bootstrap**, the popular front-end framework for building responsive and modern web pages. It includes exercises, examples, and mini-projects that help understand Bootstrap's core concepts, components, and utilities.
+
 
 ---
 
@@ -20,7 +20,6 @@ This repository is ideal for **beginners and learners** who want to practice cre
 
 ---
 
----
 
 ## 🏗️ Learning Phases
 1. **Bootstrap Basics:** Understanding the grid system, containers, rows, and columns.  
