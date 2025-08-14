@@ -1,40 +1,33 @@
-# Bootstrap-Learning-Phase
-The Bootstrap Learning Phase repository dedicated to learning and practicing **Bootstrap, a popular front-end framework**. This focuses on building responsive and modern web pages using Bootstrap’s grid system, components, utilities, and responsive design features. It includes exercises and mini-projects that help learners understand core concepts.
+# Bootstrap-Learning-Phase 3
+# 📐 Bootstrap Vertical Alignment 
 
----
+This HTML file demonstrates Bootstrap 5's vertical alignment utilities for grid columns.
 
-## 🎯 Purpose
-The purpose of this project is to **strengthen front-end development skills** by mastering Bootstrap’s features, such as:
+## 🎯 Key Features
 
-- Responsive grid system  
-- Navigation bars and menus  
-- Forms and input controls  
-- Buttons, cards, and other UI components  
-- Modals, alerts, and tooltips  
-- Utilities for spacing, colors, and typography  
+- **📏 Vertical Alignment**:
+  - `align-items-end` on row (aligns all columns to bottom) ⬇️
+  - `align-self-start` on individual column (overrides row alignment) ⬆️
+  
+- **📱 Responsive Grid**:
+  - Equal-width columns using `col` class ↔️
+  - Automatic column wrapping 🔄
 
-This repository is ideal for **beginners and learners** who want to practice creating **modern, responsive web designs** quickly and efficiently using Bootstrap.
+- **🎨 Visual Indicators**:
+  - Color-coded columns (✅ success, ⚠️ warning, ❌ danger)
+  - Placeholder text content 📝
 
----
+## 💻 Code Breakdown
 
+```html
+<div class="row align-items-end">
+    <div class="col bg-success">...</div>
+    <div class="col bg-warning align-self-start">...</div>
+    <div class="col bg-success">...</div>
+    <div class="col bg-danger">...</div>
+</div>
+```
+## 📦 Dependencies
 
-## 🏗️ Learning Phases
-1. **Bootstrap Basics:** Understanding the grid system, containers, rows, and columns.  
-2. **Components:** Buttons, cards, navbars, forms, and modals.  
-3. **Utilities:** Spacing, colors, typography, and helper classes.  
-4. **Responsive Design:** Making pages work on all screen sizes using media queries and Bootstrap classes.  
-5. **Advanced Features:** Dropdowns, carousels, and interactive components.  
-
----
-
-## 🌟 Learning Outcomes
-
-By working on this project, you will:
-
-- Understand and apply Bootstrap’s responsive grid system.
-- Use pre-built components to build modern UIs quickly.
-- Enhance your knowledge of CSS utilities and helper classes.
-- Build responsive and mobile-friendly web pages efficiently.
-- Gain confidence in creating real-world UI designs without starting from scratch.
-
+- **Bootstrap 5.3.2** (loaded via CDN) 🚀
 
