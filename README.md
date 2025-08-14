@@ -1,40 +1,49 @@
-# Bootstrap-Learning-Phase
-The Bootstrap Learning Phase repository dedicated to learning and practicing **Bootstrap, a popular front-end framework**. This focuses on building responsive and modern web pages using Bootstrap’s grid system, components, utilities, and responsive design features. It includes exercises and mini-projects that help learners understand core concepts.
+# Bootstrap-Learning-Phase 2
+# Bootstrap Grid System Example
 
----
+This project demonstrates Bootstrap 5's responsive grid system with various column layouts and breakpoint behaviors.
 
-## 🎯 Purpose
-The purpose of this project is to **strengthen front-end development skills** by mastering Bootstrap’s features, such as:
+## Features
 
-- Responsive grid system  
-- Navigation bars and menus  
-- Forms and input controls  
-- Buttons, cards, and other UI components  
-- Modals, alerts, and tooltips  
-- Utilities for spacing, colors, and typography  
+- **Grid Layout Examples**:
+  - Basic fixed-width columns (`col-*`)
+  - Responsive columns with breakpoints (`col-md-*`, `col-xl-*`)
+  - Mixed breakpoint behaviors in the same row
+  - Nested grid structure
 
-This repository is ideal for **beginners and learners** who want to practice creating **modern, responsive web designs** quickly and efficiently using Bootstrap.
+- **Visual Indicators**:
+  - Different background colors for each column
+  - Sample Lorem Ipsum text content
 
----
+## Breakpoints Demonstrated
 
+1. **Extra Small (default)**: 
+   - Columns stack vertically
+   
+2. **Medium (md ≥768px)**:
+   - Columns become horizontal
+   - 6-column layout for content sections
+   
+3. **Extra Large (xl ≥1200px)**:
+   - 4-column layout for content sections
+   - More space utilization on wide screens
 
-## 🏗️ Learning Phases
-1. **Bootstrap Basics:** Understanding the grid system, containers, rows, and columns.  
-2. **Components:** Buttons, cards, navbars, forms, and modals.  
-3. **Utilities:** Spacing, colors, typography, and helper classes.  
-4. **Responsive Design:** Making pages work on all screen sizes using media queries and Bootstrap classes.  
-5. **Advanced Features:** Dropdowns, carousels, and interactive components.  
+## File Structure
 
----
+- `index.html` - Contains all HTML markup demonstrating grid layouts
+- Uses Bootstrap 5.3.2 via CDN
 
-## 🌟 Learning Outcomes
+## Code Highlights
 
-By working on this project, you will:
+```html
+<!-- Basic fixed columns -->
+<div class="row">
+    <div class="col-4 bg-body-secondary">one</div>
+    <div class="col-3 bg-warning">one</div>
+</div>
 
-- Understand and apply Bootstrap’s responsive grid system.
-- Use pre-built components to build modern UIs quickly.
-- Enhance your knowledge of CSS utilities and helper classes.
-- Build responsive and mobile-friendly web pages efficiently.
-- Gain confidence in creating real-world UI designs without starting from scratch.
-
-
+<!-- Responsive columns with multiple breakpoints -->
+<div class="col-md-6 col-xl-4 bg-success">
+    <!-- Content -->
+</div>
+```
