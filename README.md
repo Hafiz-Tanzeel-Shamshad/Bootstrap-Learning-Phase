@@ -1,4 +1,9 @@
-# Bootstrap-Learning-Phase
+<p align="center">
+  <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap 5 Logo" width="120" />
+</p>
+
+<h1 align="center">Bootstrap-Learning-Phase</h1>
+
 The Bootstrap Learning Phase repository dedicated to learning and practicing **Bootstrap, a popular front-end framework**. This focuses on building responsive and modern web pages using Bootstrap’s grid system, components, utilities, and responsive design features. It includes exercises and mini-projects that help learners understand core concepts.
 
 ---
